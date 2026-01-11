@@ -52,6 +52,18 @@ function welcomeUser(grade, name) {
 // 출력 비밀번호.길이 >= 8 && 비밀번호.길이 <= 20
 
 // && 연산자 사용
+function passwordVerification(password) {
+  return password.length >=8 && password.length <=20
+}
+// 테스트 코드
+console.log(passwordVerification("12345"));
+console.log(passwordVerification("12"));
+console.log(passwordVerification("123456789"));
+
+// 주제없이 궁금한 내용
+// 숫자와 문자, 특수문자까지 올수 있는 비밀번호는 어떻게 만드는 걸까
+// 반드시 특수문자가 포함되어야한다 는 조건? 을 걸어야하나
+// console.log(password_Verification("fbi4i98*!@3"));
 
 
 //----------------------------------------------------
