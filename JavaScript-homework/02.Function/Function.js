@@ -8,7 +8,7 @@
 // VIP 회원 : "🌟 VIP {이름}님, 특별한 혜택이 준비되어 있습니다!"
 // 일반 회원 : "안녕하세요, {이름}님! 즐거운 쇼핑 되세요."
 //----------------------------------------------------
-
+// 제미나이와 함께했습니다... 
 function welcomeUser(grade, name) {
   const messages = {
     'VIP 회원':'🌟 VIP {name}님, 특별한 혜택이 준비되어 있습니다!',
@@ -29,10 +29,13 @@ function welcomeUser(grade, name) {
 // - 배송지역이 빈 문자열인 경우 : 기본 배송비 적용
 //----------------------------------------------------
 
+// function calculationShippingCost(price, region) {
+//   const isFreeShipping = (price >= 50000 || price <= 0)
+//   const shippingFree = isFreeShipping 
 
-
-
-
+//   const isFarArea = eara ==="제주" || region === "도서산간"
+//   const FarArea =
+// } 
 
 //----------------------------------------------------
 // 3. 비밀번호 유효성 검사
