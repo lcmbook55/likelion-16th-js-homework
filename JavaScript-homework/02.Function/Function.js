@@ -65,7 +65,6 @@ console.log(passwordVerification("123456789"));
 // 반드시 특수문자가 포함되어야한다 는 조건? 을 걸어야하나
 // console.log(password_Verification("fbi4i98*!@3"));
 
-
 //----------------------------------------------------
 // 4. 포인트 적립 계산
 
